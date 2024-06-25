@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Aqua Amethyst",
+	"settings": {
+		"color": {
+			"gradients": [
+				{
+					"gradient": "linear-gradient(135deg,#5C2FC2 0%,#6FDCE3 100%);",
+					"name": "Main gradiant",
+					"slug": "custom-main-gradiant"
+				}
+			],
+			"palette": [
+				{
+					"color": "#270d62",
+					"name": "Dark Background Color",
+					"slug": "custom-dark-background-color"
+				},
+				{
+					"color": "#5C2FC2",
+					"name": "Primary",
+					"slug": "custom-primary"
+				}
+			]
+		}
+	}
+}

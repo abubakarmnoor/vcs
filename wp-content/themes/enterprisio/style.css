@@ -1,0 +1,259 @@
+/*
+Theme Name: Enterprisio
+Theme URI: https://effethemes.com/themes/enterprisio-wordpress-theme/
+Author: Effe Themes
+Author URI: https://effethemes.com/
+Description: Enterprisio is a versatile WordPress theme designed to meet the needs of businesses, startups, agencies, software companies, technology companies, marketing websites and corporate entities. Enterprisio offers a wide variety of styles and patterns, allowing you to customize your website to reflect your brand's unique identity. With an innovative, professional, modern and clean design, Enterprisio allows you to present your services, portfolio and team in an elegant and professional way.
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 5.7
+Version: 1.1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: enterprisio
+Tags: block-patterns, custom-colors, custom-logo, custom-menu, news, e-commerce, featured-images, full-site-editing, block-styles, style-variations, full-width-template, portfolio, threaded-comments, translation-ready
+*/
+
+/* ================= > General Styles < ================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wp-block-site-title > a {
+  text-decoration: none;
+}
+
+.wp-block-button > a {
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.wp-element-button[type="submit"] {
+  background: var(--wp--preset--color--custom-primary) !important;
+}
+
+:where(.wp-site-blocks) > * {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+}
+
+.image-full-width > img {
+  width: 100%;
+}
+
+@-webkit-keyframes button-shadow-pulse
+{
+  0% {
+    -webkit-box-shadow: 0 0 0 0px #fff;
+            box-shadow: 0 0 0 0px #fff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 7px 25px rgba(0, 112, 244, 0);
+            box-shadow: 0 0 7px 25px rgba(0, 112, 244, 0);
+  }
+}
+
+@keyframes button-shadow-pulse
+{
+  0% {
+    -webkit-box-shadow: 0 0 0 0px #fff;
+            box-shadow: 0 0 0 0px #fff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 7px 25px rgba(0, 112, 244, 0);
+            box-shadow: 0 0 7px 25px rgba(0, 112, 244, 0);
+  }
+}
+
+.button-pulse > a {
+  text-align: center;
+  -webkit-animation: button-shadow-pulse 1.5s infinite;
+          animation: button-shadow-pulse 1.5s infinite;
+}
+
+/* ================= > Header < ================= */
+
+.wp-block-navigation__submenu-container {
+  border-radius: 20px !important;
+}
+
+.wp-block-navigation__submenu-container > li {
+  color: #333 !important;
+  border-radius: 20px !important
+}
+
+.wp-block-navigation__responsive-container-content {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.homepage-fixed-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0px;
+}
+
+/* ================= > Hero < ================= */
+
+.hero-best-service {
+  position: relative;
+  bottom: 110px;
+  right: 120px;
+}
+
+/* ================= > Blog < ================= */
+
+.wp-block-search__input {
+  padding: 0 20px;
+}
+
+.wp-block-search__inside-wrapper {
+  border-radius: 20px;
+}
+
+.wp-block-search__button {
+  border-radius: 20px !important;
+}
+
+.wp-block-comment-content {
+  border-radius: 20px;
+}
+
+.comment-reply-link {
+  background: var(--wp--preset--color--custom-primary);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* ================= > Footer < ================= */
+
+.footer-links {
+  display: -ms-grid;
+  display: grid;
+  gap: 8px;
+}
+
+.footer-links > li > a {
+  text-decoration: none;
+}
+
+/* ================= > Media Queries < ================= */
+
+@media (max-width: 1024px) {
+  .wp-block-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center !important;
+  }
+
+  .hero-best-service {
+    right: 60px;
+  }
+
+  .hero-buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .footer-columns {
+    gap: 60px !important;
+  }
+
+  .footer-social-icons {
+    margin-top: 30px !important;
+  }
+
+  .footer-columns-links {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+
+  .footer-copyright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    gap: 0px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+    color: #333;
+  }
+
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) .wp-block-navigation__responsive-container-close,
+  .wp-block-navigation__responsive-container-open:not(.always-shown),
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none;
+  }
+
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .wp-block-navigation__container {
+    --navigation-layout-justification-setting: flex-start !important;
+    --navigation-layout-justify: flex-start !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: var(--wp--preset--spacing--40) !important;
+  }
+
+  .footer-columns-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .homepage-fixed-menu {
+    top: -10px;
+  }
+
+  .hero-buttons, 
+  .header-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: var(--wp--preset--spacing--40) !important;
+  }
+
+  .hero-best-service {
+    right: 20px;
+    bottom: 60px;
+  }
+}

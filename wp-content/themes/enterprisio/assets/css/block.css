@@ -1,0 +1,11 @@
+/* ================= > Button Hover < ================= */
+
+.wp-block-button.is-style-button-hover-primary-color a:hover {
+  color: #fff !important;
+  background: var(--wp--preset--color--custom-primary) !important;
+}
+
+.wp-block-button.is-style-button-hover-secondary-color a:hover {
+  color: #fff !important;
+  background: linear-gradient(135deg,rgb(8,20,44) 0%,rgb(14,49,123) 100%) !important;
+}

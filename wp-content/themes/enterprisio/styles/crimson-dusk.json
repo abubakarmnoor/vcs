@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Crimson Dusk",
+	"settings": {
+		"color": {
+			"gradients": [
+				{
+					"gradient": "linear-gradient(90deg, #410511 0%, #640d14 35%, #800e13 70%, #ad2831 100%);",
+					"name": "Main gradiant",
+					"slug": "custom-main-gradiant"
+				}
+			],
+			"palette": [
+				{
+					"color": "#220208",
+					"name": "Dark Background Color",
+					"slug": "custom-dark-background-color"
+				},
+				{
+					"color": "#ad2831",
+					"name": "Primary",
+					"slug": "custom-primary"
+				}
+			]
+		}
+	}
+}

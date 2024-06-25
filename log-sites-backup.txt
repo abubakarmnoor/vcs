@@ -1,0 +1,31 @@
+2024-Jun-24-09-54-02
+apidch.localpro100.com
+begin_2024-Jun-24-09-54-02
+zipping ... apidch.localpro100.com
+copy to gdrive ... apidch.localpro100.com
+end_2024-Jun-24-09-54-12
+Done
+dchappdashboard.localpro100.com
+begin_2024-Jun-24-09-54-12
+zipping ... dchappdashboard.localpro100.com
+copy to gdrive ... dchappdashboard.localpro100.com
+end_2024-Jun-24-09-54-47
+Done
+varconsultingservices.com
+begin_2024-Jun-24-09-54-47
+zipping ... varconsultingservices.com
+copy to gdrive ... varconsultingservices.com
+end_2024-Jun-24-09-55-03
+Done
+varconsultingservices.comx
+begin_2024-Jun-24-09-55-03
+zipping ... varconsultingservices.comx
+copy to gdrive ... varconsultingservices.comx
+end_2024-Jun-24-09-55-19
+Done
+wordpress
+begin_2024-Jun-24-09-55-19
+zipping ... wordpress
+copy to gdrive ... wordpress
+end_2024-Jun-24-09-55-26
+Done
