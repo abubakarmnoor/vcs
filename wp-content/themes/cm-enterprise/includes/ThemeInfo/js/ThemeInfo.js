@@ -26,17 +26,18 @@
       button.addEventListener('click', function() {
         let pluginSlug = button.getAttribute('data-plugin-slug');
         let filename = button.getAttribute('data-file-name');
+        let nonce = cm_enterprise_themeInfo.nonce; // Get the nonce from localized script
 
         // Display loading animation
         button.innerHTML = 'Installing...';
 
         // Make a fetch request
-        fetch(ajaxurl, {
+        fetch(cm_enterprise_themeInfo.ajaxurl, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
           },
-          body: 'action=cm_admin_install_plugin&plugin_slug=' + encodeURIComponent(pluginSlug) + '&filename=' + encodeURIComponent(filename),
+          body: 'action=cm_admin_install_plugin&plugin_slug=' + encodeURIComponent(pluginSlug) + '&filename=' + encodeURIComponent(filename) + '&nonce=' + encodeURIComponent(nonce),
         })
           .then(function(response) {
             if (!response.ok) {

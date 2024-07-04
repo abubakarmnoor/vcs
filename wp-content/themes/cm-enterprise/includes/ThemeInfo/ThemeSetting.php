@@ -35,11 +35,17 @@ class ThemeSetting {
 
 		$path = get_template_directory_uri() . '/includes/ThemeInfo/css/themeInfo-style.css';
 		$deps = array();
-		wp_enqueue_style( 'cm-enterprise-themeInfo-styles', $path, $deps, '1.0.5',
+		wp_enqueue_style( 'cm-enterprise-themeInfo-styles', $path, $deps, '1.0.8',
 			'all' );
 		wp_enqueue_script( 'cm_enterprise_themeInfo_script',
 			get_template_directory_uri() . '/includes/ThemeInfo/js/ThemeInfo.js', array(),
 			'1.0' );
+
+		// Localize script to pass nonce
+		wp_localize_script( 'cm_enterprise_themeInfo_script', 'cm_enterprise_themeInfo', array(
+			'ajaxurl' => admin_url( 'admin-ajax.php' ),
+			'nonce'   => wp_create_nonce( 'cm_admin_install_plugin_nonce' ),
+		));
 	}
 
 
@@ -68,6 +74,9 @@ class ThemeSetting {
 	function install_plugin_callback(): void {
 		$plugin_slug = isset( $_POST['plugin_slug'] ) ? sanitize_text_field( $_POST['plugin_slug'] ) : '';
 		$filename = isset( $_POST['filename'] ) ? sanitize_text_field( $_POST['filename'] ) : '';
+
+		// Check nonce for security
+		check_ajax_referer('cm_admin_install_plugin_nonce', 'nonce');
 
 		if ( empty( $plugin_slug ) ) {
 			wp_send_json_error( array( 'message' => 'Invalid plugin slug.' ) );

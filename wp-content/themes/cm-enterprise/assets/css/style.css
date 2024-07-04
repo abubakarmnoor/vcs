@@ -266,14 +266,15 @@
         top: 20px;
     }
 
-    .has-child .wp-block-navigation__submenu-container{
-        display: none!important;
-    }
-    .has-child .wp-block-navigation__submenu-container.is-subMenu--active{
-        display: block!important;
+    .has-child .wp-block-navigation__submenu-container {
+        display: none !important;
     }
 
-    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container ul{
+    .has-child .wp-block-navigation__submenu-container.is-subMenu--active {
+        display: block !important;
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container ul {
         width: 100%;
     }
 
@@ -286,6 +287,7 @@
         height: 100%;
         margin-top: 0 !important;
     }
+
     .wp-block-navigation__submenu-container.wp-block-navigation-submenu.is-subMenu--active {
         padding: 0 16px !important;
     }

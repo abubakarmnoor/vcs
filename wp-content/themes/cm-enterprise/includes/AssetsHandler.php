@@ -21,7 +21,7 @@ class AssetsHandler {
 			// This is an example of how to include a plugin bundled with a theme.
 			array(
 				'name'      => __('CM Blocks', 'cm-enterprise'),
-				'slug'      => 'cm-enterprise',
+				'slug'      => 'cm-blocks',
 				'required'  => false,
 			)
 		);

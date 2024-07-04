@@ -4,8 +4,8 @@ Contributors: codemanas
 Tags: grid-layout, block-patterns, custom-logo, theme-options, wide-blocks, full-width-template, full-site-editing, featured-images, custom-menu, editor-style, custom-header, block-styles, three-columns
 Requires at least: 6.5
 Tested up to: 6.5
-Requires PHP: 8.10
-Stable tag: 1.0.5
+Requires PHP: 7.4
+Stable tag: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,18 @@ Announcing our latest Enterprise Theme for WordPress! Elevate your online presen
 
 == Changelog ==
 
-= 1.0.5 - June 0, 2024 =
+= 1.0.8 - June 28, 2024 =
+* Replace ttf fonts with woff fonts
+* Add fallback fonts
+
+= 1.0.7 - June 27, 2024 =
+* Fix: Fix TGMA issue when recommended plugin is installed
+
+= 1.0.6 - June 26, 2024 =
+* Implemented missing nonce on ajax call
+* Added underline by default on content links
+
+= 1.0.5 - June 20, 2024 =
 * Add background color on body from json
 * Solve pagelist dropdown not working on mobile navigation
 
