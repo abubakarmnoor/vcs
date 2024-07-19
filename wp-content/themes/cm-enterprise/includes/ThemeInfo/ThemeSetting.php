@@ -35,11 +35,11 @@ class ThemeSetting {
 
 		$path = get_template_directory_uri() . '/includes/ThemeInfo/css/themeInfo-style.css';
 		$deps = array();
-		wp_enqueue_style( 'cm-enterprise-themeInfo-styles', $path, $deps, '1.0.8',
+		wp_enqueue_style( 'cm-enterprise-themeInfo-styles', $path, $deps, '1.1.0',
 			'all' );
 		wp_enqueue_script( 'cm_enterprise_themeInfo_script',
 			get_template_directory_uri() . '/includes/ThemeInfo/js/ThemeInfo.js', array(),
-			'1.0' );
+			'1.1.0' );
 
 		// Localize script to pass nonce
 		wp_localize_script( 'cm_enterprise_themeInfo_script', 'cm_enterprise_themeInfo', array(

@@ -5,7 +5,7 @@ Tags: grid-layout, block-patterns, custom-logo, theme-options, wide-blocks, full
 Requires at least: 6.5
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.0.8
+Stable tag: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,12 @@ Announcing our latest Enterprise Theme for WordPress! Elevate your online presen
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+
+= 1.1.0 - July 5, 2024 =
+* Change 404 text on template
+
+= 1.0.9 - July 4, 2024 =
+* Replace woff fonts with woff2 fonts
 
 = 1.0.8 - June 28, 2024 =
 * Replace ttf fonts with woff fonts
@@ -120,6 +126,3 @@ Font :Raleway
 Copyright 2020 The Raleway Project Authors
 License:  https://openfontlicense.org
 Source: https://github.com/impallari/Raleway
-
-==Iframe==
-iframe tag is used on map patterns to use mag on contact page.

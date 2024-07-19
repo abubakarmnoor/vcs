@@ -180,90 +180,11 @@
         {
           "fontFace": [
             {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "100",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-Thin.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "200",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-ExtraLight.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "300",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-Light.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-Regular.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "500",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-Medium.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "600",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-SemiBold.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "700",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-Bold.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "800",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-ExtraBold.woff"
-              ]
-            },
-            {
-              "fontFamily": "Poppins",
-              "fontStyle": "normal",
-              "fontWeight": "900",
-              "src": [
-                "file:./assets/fonts/poppins/Poppins-Black.woff"
-              ]
-            }
-          ],
-          "fontFamily": "'Poppins', sans-serif",
-          "name": "Poppins",
-          "slug": "poppins"
-        },
-        {
-          "fontFace": [
-            {
               "fontFamily": "Inter",
               "fontStyle": "normal",
               "fontWeight": "100",
               "src": [
-                "file:./assets/fonts/inter/Inter-Thin.woff"
+                "file:./assets/fonts/inter/Inter-Thin.woff2"
               ]
             },
             {
@@ -271,7 +192,7 @@
               "fontStyle": "normal",
               "fontWeight": "200",
               "src": [
-                "file:./assets/fonts/inter/Inter-ExtraLight.woff"
+                "file:./assets/fonts/inter/Inter-ExtraLight.woff2"
               ]
             },
             {
@@ -279,7 +200,7 @@
               "fontStyle": "normal",
               "fontWeight": "300",
               "src": [
-                "file:./assets/fonts/inter/Inter-Light.woff"
+                "file:./assets/fonts/inter/Inter-Light.woff2"
               ]
             },
             {
@@ -287,7 +208,7 @@
               "fontStyle": "normal",
               "fontWeight": "400",
               "src": [
-                "file:./assets/fonts/inter/Inter-Regular.woff"
+                "file:./assets/fonts/inter/Inter-Regular.woff2"
               ]
             },
             {
@@ -295,7 +216,7 @@
               "fontStyle": "normal",
               "fontWeight": "500",
               "src": [
-                "file:./assets/fonts/inter/Inter-Medium.woff"
+                "file:./assets/fonts/inter/Inter-Medium.woff2"
               ]
             },
             {
@@ -303,7 +224,7 @@
               "fontStyle": "normal",
               "fontWeight": "600",
               "src": [
-                "file:./assets/fonts/inter/Inter-SemiBold.woff"
+                "file:./assets/fonts/inter/Inter-SemiBold.woff2"
               ]
             },
             {
@@ -311,7 +232,7 @@
               "fontStyle": "normal",
               "fontWeight": "700",
               "src": [
-                "file:./assets/fonts/inter/Inter-Bold.woff"
+                "file:./assets/fonts/inter/Inter-Bold.woff2"
               ]
             },
             {
@@ -319,7 +240,7 @@
               "fontStyle": "normal",
               "fontWeight": "800",
               "src": [
-                "file:./assets/fonts/inter/Inter-ExtraBold.woff"
+                "file:./assets/fonts/inter/Inter-ExtraBold.woff2"
               ]
             },
             {
@@ -327,7 +248,7 @@
               "fontStyle": "normal",
               "fontWeight": "900",
               "src": [
-                "file:./assets/fonts/inter/Inter-Black.woff"
+                "file:./assets/fonts/inter/Inter-Black.woff2"
               ]
             }
           ],
@@ -338,11 +259,91 @@
         {
           "fontFace": [
             {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "100",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-Thin.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "200",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-ExtraLight.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "300",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-Light.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-Regular.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-Medium.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-SemiBold.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-Bold.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-ExtraBold.woff2"
+              ]
+            },
+            {
+              "fontFamily": "Poppins",
+              "fontStyle": "normal",
+              "fontWeight": "900",
+              "src": [
+                "file:./assets/fonts/poppins/Poppins-Black.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "'Poppins', sans-serif",
+          "name": "Poppins",
+          "slug": "poppins"
+        },
+
+        {
+          "fontFace": [
+            {
               "fontFamily": "Montserrat",
               "fontStyle": "normal",
               "fontWeight": "100",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-Thin.woff"
+                "file:./assets/fonts/montserrat/Montserrat-Thin.woff2"
               ]
             },
             {
@@ -350,7 +351,7 @@
               "fontStyle": "normal",
               "fontWeight": "200",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-ExtraLight.woff"
+                "file:./assets/fonts/montserrat/Montserrat-ExtraLight.woff2"
               ]
             },
             {
@@ -358,7 +359,7 @@
               "fontStyle": "normal",
               "fontWeight": "300",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-Light.woff"
+                "file:./assets/fonts/montserrat/Montserrat-Light.woff2"
               ]
             },
             {
@@ -366,7 +367,7 @@
               "fontStyle": "normal",
               "fontWeight": "400",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-Regular.woff"
+                "file:./assets/fonts/montserrat/Montserrat-Regular.woff2"
               ]
             },
             {
@@ -374,7 +375,7 @@
               "fontStyle": "normal",
               "fontWeight": "500",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-Medium.woff"
+                "file:./assets/fonts/montserrat/Montserrat-Medium.woff2"
               ]
             },
             {
@@ -382,7 +383,7 @@
               "fontStyle": "normal",
               "fontWeight": "600",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-SemiBold.woff"
+                "file:./assets/fonts/montserrat/Montserrat-SemiBold.woff2"
               ]
             },
             {
@@ -390,7 +391,7 @@
               "fontStyle": "normal",
               "fontWeight": "700",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-Bold.woff"
+                "file:./assets/fonts/montserrat/Montserrat-Bold.woff2"
               ]
             },
             {
@@ -398,7 +399,7 @@
               "fontStyle": "normal",
               "fontWeight": "800",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-ExtraBold.woff"
+                "file:./assets/fonts/montserrat/Montserrat-ExtraBold.woff2"
               ]
             },
             {
@@ -406,7 +407,7 @@
               "fontStyle": "normal",
               "fontWeight": "900",
               "src": [
-                "file:./assets/fonts/montserrat/Montserrat-Black.woff"
+                "file:./assets/fonts/montserrat/Montserrat-Black.woff2"
               ]
             }
           ],
@@ -421,7 +422,7 @@
               "fontStyle": "normal",
               "fontWeight": "100",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-Thin.woff"
+                "file:./assets/fonts/raleway/Raleway-Thin.woff2"
               ]
             },
             {
@@ -429,7 +430,7 @@
               "fontStyle": "normal",
               "fontWeight": "200",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-ExtraLight.woff"
+                "file:./assets/fonts/raleway/Raleway-ExtraLight.woff2"
               ]
             },
             {
@@ -437,7 +438,7 @@
               "fontStyle": "normal",
               "fontWeight": "300",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-Light.woff"
+                "file:./assets/fonts/raleway/Raleway-Light.woff2"
               ]
             },
             {
@@ -445,7 +446,7 @@
               "fontStyle": "normal",
               "fontWeight": "400",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-Regular.woff"
+                "file:./assets/fonts/raleway/Raleway-Regular.woff2"
               ]
             },
             {
@@ -453,7 +454,7 @@
               "fontStyle": "normal",
               "fontWeight": "500",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-Medium.woff"
+                "file:./assets/fonts/raleway/Raleway-Medium.woff2"
               ]
             },
             {
@@ -461,7 +462,7 @@
               "fontStyle": "normal",
               "fontWeight": "600",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-SemiBold.woff"
+                "file:./assets/fonts/raleway/Raleway-SemiBold.woff2"
               ]
             },
             {
@@ -469,7 +470,7 @@
               "fontStyle": "normal",
               "fontWeight": "700",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-Bold.woff"
+                "file:./assets/fonts/raleway/Raleway-Bold.woff2"
               ]
             },
             {
@@ -477,7 +478,7 @@
               "fontStyle": "normal",
               "fontWeight": "800",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-ExtraBold.woff"
+                "file:./assets/fonts/raleway/Raleway-ExtraBold.woff2"
               ]
             },
             {
@@ -485,7 +486,7 @@
               "fontStyle": "normal",
               "fontWeight": "900",
               "src": [
-                "file:./assets/fonts/raleway/Raleway-Black.woff"
+                "file:./assets/fonts/raleway/Raleway-Black.woff2"
               ]
             }
           ],
